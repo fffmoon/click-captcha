@@ -1,12 +1,15 @@
-ClickCaptcha !https://www.npmjs.com/package/click-captcha !https://img.shields.io/github/stars/fffmoon/click-captcha?style=social
 
-javascript的中文点序验证解决方案 | Chinese Character Sequence Click Verification  
+[![npm](https://img.shields.io/npm/v/click-captcha)](https://www.npmjs.com/package/click-captcha)
+[![github](https://img.shields.io/github/stars/fffmoon/click-captcha?style=social)](https://github.com/fffmoon/click-captcha)
 
-专为中文场景设计的抗机器识别验证系统  
 
-GitHub: https://github.com/fffmoon/click-captcha
+# ClickCaptcha
 
-![图片预览](https://github.com/fffmoon/click-captcha/blob/main/tests/demo-01.png?raw=true)
+![图片预览](https://github.com/fffmoon/click-captcha/blob/master/tests/demo-01.png?raw=true)
+
+javascript 的中文点序验证解决方案 | Chinese Character Sequence Click Verification
+
+专为中文场景设计的抗机器识别验证系统
 
 
 ## 特性亮点
@@ -64,7 +67,7 @@ const isValid = captcha.verify(positions, data); // true通过 false不通过
 | `fontSize`   | number           | 40       | 字符字号           |
 | `expire`     | number           | 180      | 验证码有效期(秒)   |
 | **高级配置** |                  |          |                    |
-| `fontPath`   | string           | 内置字体 | 字体的base64数据 |
+| `fontPath`   | string           | 内置字体 | 字体的 base64 数据 |
 | `hintType`   | 'svg' \| 'image' | 'svg'    | 提示信息类型       |
 
 ## 安全实践 🔒
