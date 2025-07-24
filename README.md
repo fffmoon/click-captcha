@@ -3,11 +3,11 @@
 [![github](https://img.shields.io/github/stars/fffmoon/click-captcha?style=social)](https://github.com/fffmoon/click-captcha)
 
 
-# ClickCaptcha
+# ClickCaptcha 中文验证码
 
 ![图片预览](https://github.com/fffmoon/click-captcha/blob/master/tests/demo-01.png?raw=true)
 
-javascript 的中文点序验证解决方案 | Chinese Character Sequence Click Verification
+javascript 的中文点序验证解决方案 | 中文验证码 | 汉字验证码 | 中文汉字字序点击验证码 | Chinese Character Sequence Click Verification
 
 专为中文场景设计的抗机器识别验证系统
 

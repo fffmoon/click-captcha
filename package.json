@@ -13,6 +13,10 @@
   "license": "MIT",
   "keywords": [
     "captcha",
+    "验证码",
+    "中文验证码",
+    "汉字验证码",
+    "中文汉字字序点击验证码",
     "click-captcha",
     "chinese-captcha",
     "verification-system"
