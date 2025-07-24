@@ -1,0 +1,36 @@
+{
+  "name": "click-captcha",
+  "version": "1.0.0-alpha.0",
+  "author": "fffmoon",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "ts-node tests/test-server.ts"
+  },
+  "description": "Chinese Character Sequence Click Verification System",
+  "license": "MIT",
+  "keywords": [
+    "captcha",
+    "click-captcha",
+    "chinese-captcha",
+    "verification-system"
+  ],
+  "dependencies": {
+    "opentype.js": "^1.3.4",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^24.1.0",
+    "@types/opentype.js": "^1.3.8",
+    "@types/body-parser": "^1.19.5",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
